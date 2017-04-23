@@ -1,0 +1,39 @@
+- name: Instalacija LAMP stacka
+  hosts: host2.vidoje.rs, host1.vidoje.rs 
+  tasks:
+        - name: Pingovanje hosta
+          action: ping
+        
+        - name: User
+          command: whoami
+        
+        - name: Instalacija Apache-a
+          yum: name=httpd update_cache=yes state=latest
+        
+        - name: Aktiviranje servisa - APACHE
+          service: name=httpd state=started
+        
+        - name: Instalacija MYSQL - servera
+          yum: name=mariadb-server state=latest
+        
+        - name: Instalacija MYSQL - servera
+          yum: name=mariadb state=latest
+        
+        - name: Pokretanje instalacije
+          command: echo -e "\n \ny\nvidojenrt2013\nvidojenrt2013\ny\nn\nn\ny" | mysql_secure_installation
+       
+        - name: Start MYSQL servera
+          service: name=mariadb state=restarted
+                
+        - name: Instalacija PHP-a
+          yum: name=php name=php-mysql state=latest
+        
+        - name: Instalacija vsftpd
+          yum: name=vsftpd state=latest
+        
+        - name: Start FTP-a
+          service: name=vsftpd state=started
+
+        - name: Restart APACHE-a
+          service: name=httpd state=restarted
+
