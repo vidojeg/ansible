@@ -1,0 +1,17 @@
+---
+- hosts: FXMate # AppServer
+  become: True
+  vars:
+    - hostname: "{{ client_name|lower }}-{{ tradecore_env }}.tradecore.io"
+
+  tasks:
+    - name: Update hostname
+      hostname:
+        name: "{{ hostname }}"
+
+    - name: add hostname to hosts file
+      lineinfile:
+        dest: /etc/hosts
+        regexp: '^127.0.1.1'
+        line: "127.0.1.1    {{ hostname }}"
+        state: present

@@ -1,0 +1,262 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lis",
+				"lista\tstatement"
+			],
+			[
+				"tim",
+				"time_data\tstatement"
+			],
+			[
+				"da",
+				"datatime"
+			],
+			[
+				"conn",
+				"connect\tfunction"
+			],
+			[
+				"try",
+				"try\tTry/Except"
+			],
+			[
+				"ms",
+				"msgbad"
+			],
+			[
+				"local",
+				"localpath"
+			],
+			[
+				"hom",
+				"homedir"
+			],
+			[
+				"check",
+				"check_rsync"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/vidoje/Documents/python/test.py",
+		"/Users/vidoje/Documents/ansible/unattended_upgrades/defaults/main.yml",
+		"/Users/vidoje/Documents/ansible/unattended_upgrades/templates/50unattended-upgrades",
+		"/Users/vidoje/Documents/ansible/unattended_upgrades/templates/10periodic",
+		"/Users/vidoje/Documents/ansible/unattended_upgrades/unattended-upgrades.yml",
+		"/Users/vidoje/Documents/ansible/unattended_upgrades/defaults/all.yml",
+		"/Users/vidoje/Documents/ansible/nylas_nginx.yml",
+		"/Users/vidoje/Documents/ansible/hostname.yml",
+		"/Users/vidoje/Documents/kimichi.txt",
+		"/Users/vidoje/Documents/ansible/ansible_nginx/tasks/configure_nginx.yml",
+		"/Users/vidoje/Documents/ansible/ansible_nginx/server_conf",
+		"/Users/vidoje/Documents/bash/lovestocks.sh",
+		"/Users/vidoje/Documents/hostname.yml",
+		"/Users/vidoje/Documents/ansible/ansible_nginx/deploy.yml",
+		"/Users/vidoje/Documents/ansible/ansible_nginx/tasks/configure_proxy.yml",
+		"/Users/vidoje/Documents/ansible/ansible_nginx/tasks/install_nginx.yml",
+		"/Users/vidoje/Desktop/index.html",
+		"/Users/vidoje/Documents/project/ansible-master/library/django_user.py",
+		"/Users/vidoje/Documents/bsf.login.txt",
+		"/Users/vidoje/Documents/cloudsigma.txt",
+		"/Users/vidoje/Documents/lxc_lxd_containers.txt",
+		"/Users/vidoje/Documents/kvm_instalation.txt",
+		"/Users/vidoje/PycharmProjects/Viki/viki.py",
+		"/Users/vidoje/Documents/kvm_instalation",
+		"/Users/vidoje/Documents/lovestocks.sh",
+		"/Users/vidoje/Documents/ansible.txt",
+		"/Users/vidoje/Downloads/welcome_email.sh",
+		"/Users/vidoje/Documents/gitlab/commands",
+		"/Users/vidoje/Documents/jenkins dodavanje usera",
+		"/Users/vidoje/Documents/gitlab/git-test/test.yml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "unattended-upgrades.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 183.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
