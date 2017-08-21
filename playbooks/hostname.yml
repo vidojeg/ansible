@@ -1,8 +1,8 @@
 ---
-- hosts: FXMate # AppServer
+- hosts: webservers
   become: True
   vars:
-    - hostname: "{{ client_name|lower }}-{{ tradecore_env }}.tradecore.io"
+    - hostname: "{{ hostname }}.vidoje.rs"
 
   tasks:
     - name: Update hostname
