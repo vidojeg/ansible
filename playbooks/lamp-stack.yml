@@ -1,14 +1,11 @@
-- name: Instalacija LAMP stacka
-  hosts: host2.example.tld, host1.example.tld 
+- name: LAMP stack installation for CentOS
+  hosts: host1.vidoje.rs, host2.vidoje.rs
   tasks:
-        - name: Pingovanje hosta
-          action: ping
-        
-        - name: User
-          command: whoami
-        
-        - name: Instalacija Apache-a
-          yum: name=httpd update_cache=yes state=latest
+        - name: Install Apache
+          yum: 
+            name: httpd 
+            update_cache: yes 
+            state: latest
         
         - name: Aktiviranje servisa - APACHE
           service: name=httpd state=started
